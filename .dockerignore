@@ -1,0 +1,35 @@
+# === Ignora diretórios de build e cache ===
+target/
+build/
+out/
+
+# === Ignora metadados de IDE ===
+.idea/
+.vscode/
+*.iml
+
+# === Ignora arquivos de controle de versão ===
+.git/
+.gitignore
+
+# === Ignora arquivos do Docker Compose e outros configs locais ===
+docker-compose.yml
+*.env
+
+# === Ignora logs e arquivos temporários ===
+*.log
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+
+# === Ignora arquivos do sistema operacional ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Ignora chaves e configs sensíveis ===
+*.pem
+*.key
+*.crt
+*.secret
